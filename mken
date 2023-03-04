@@ -1,46 +1,54 @@
 <html>
+<head>
 <link rel="icon" href="https://cdn.discordapp.com/attachments/1053097258993848351/1080635235470946334/website_icon4.png">
-<title>Mein Kampf [EDUCATIONAL]</title>
+<title>Mein Kampf</title>
+<meta content="Mein Kampf" property="og:title" />
+<meta content="Read Mein Kampf for free." property="og:description" />
+<meta content="https://iliek.one/mken" property="og:url" />
+<meta content="https://cdn.discordapp.com/attachments/1053097258993848351/1081384955441074228/discord_embed.png" property="og:image" />
+<meta content="#FF0000" data-react-helmet="true" name="theme-color" />
+</head>
 <body bgcolor="#444444" style="color:#cccccc">
 <img src="https://cdn.discordapp.com/attachments/1053097258993848351/1080753761460420728/meinkampf.png" alt="Book Cover" style="position: relative; left: 600px">
 <h1 style="position: relative; top: -360px">Mein Kampf Stalag Edition</h1>
 <h3 style="position: relative; top: -350px">
-VOLUME ONE A Reckoning 
+VOLUME ONE - A Reckoning 
 </h3>
 <pre style="position: relative; top: -340px">
 <a href="" style="color:white; background-color:transparent">CHAPTER I: MY HOME</a>
 <a href="" style="color:white; background-color:transparent">CHAPTER II: LEARNING AND SUFFERING IN VIENNA</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER III: VIENNA DAYS—GENERAL REFLECTIONS</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER IV: MUNICH</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER V: THE WORLD WAR</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VI: WAR PROPAGANDA</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VII: THE REVOLUTION IN 1918</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VIII: THE BEGINNING OF MY POLITICAL ACTIVITIES</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER IX: THE GERMAN LABOUR PARTY</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER X: THE COLLAPSE OF THE SECOND REICH</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XI: NATION AND RACE</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XII: THE FIRST STAGE IN THE DEVELOPMENT OF THE NATIONAL SOCIALIST</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XIII: GERMAN LABOUR PARTY</a>
+WORK IN PROGRESS : 
+<a style="color:white; background-color:transparent">CHAPTER III: VIENNA DAYS—GENERAL REFLECTIONS</a>
+<a style="color:white; background-color:transparent">CHAPTER IV: MUNICH</a>
+<a style="color:white; background-color:transparent">CHAPTER V: THE WORLD WAR</a>
+<a style="color:white; background-color:transparent">CHAPTER VI: WAR PROPAGANDA</a>
+<a style="color:white; background-color:transparent">CHAPTER VII: THE REVOLUTION IN 1918</a>
+<a style="color:white; background-color:transparent">CHAPTER VIII: THE BEGINNING OF MY POLITICAL ACTIVITIES</a>
+<a style="color:white; background-color:transparent">CHAPTER IX: THE GERMAN LABOUR PARTY</a>
+<a style="color:white; background-color:transparent">CHAPTER X: THE COLLAPSE OF THE SECOND REICH</a>
+<a style="color:white; background-color:transparent">CHAPTER XI: NATION AND RACE</a>
+<a style="color:white; background-color:transparent">CHAPTER XII: THE FIRST STAGE IN THE DEVELOPMENT OF THE NATIONAL SOCIALIST</a>
+<a style="color:white; background-color:transparent">CHAPTER XIII: GERMAN LABOUR PARTY</a>
 </pre>
 <h3 style="position: relative; top: -330px">
-VOLUME TWO The National Socialist Movement 
+VOLUME TWO - The National Socialist Movement - WORK IN PROGRESS
 </h3>
 <pre style="position: relative; top: -320px">
-<a href="" style="color:white; background-color:transparent">CHAPTER I: WELTANSCHAUUNG AND PARTY</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER II: THE STATE</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER III: CITIZENS AND SUBJECTS OF THE STATE </a>
-<a href="" style="color:white; background-color:transparent">CHAPTER IV: PERSONALITY AND THE IDEAL OF THE VOLKISCH STATE</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER V: WELTANSCHAUUNG AND ORGANIZATION</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VI: THE FIRST PHASE OF OUR STRUGGLE—THE SIGNIFICANCE OF THE SPOKEN WORD</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VII: THE STRUGGLE WITH THE REDS</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER VIII: THE STRONG ARE STRONGER WITHOUT ALLIES</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER IX: NATURE AND ORGANISATION OF THE STORM TROOPS</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER X: THE MASK OF FEDERALISM</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XI: PROPAGANDA AND ORGANIZATION</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XII: THE PROBLEM OF THE TRADE-UNIONS</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XIII: THE GERMAN POLICY OF ALLIANCES</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XIV: EASTERN BIAS OR EASTERN POLICY</a>
-<a href="" style="color:white; background-color:transparent">CHAPTER XV: THE RIGHT TO SELF-DEFENCE</a>
+<a style="color:white; background-color:transparent">CHAPTER I: WELTANSCHAUUNG AND PARTY</a>
+<a style="color:white; background-color:transparent">CHAPTER II: THE STATE</a>
+<a style="color:white; background-color:transparent">CHAPTER III: CITIZENS AND SUBJECTS OF THE STATE </a>
+<a style="color:white; background-color:transparent">CHAPTER IV: PERSONALITY AND THE IDEAL OF THE VOLKISCH STATE</a>
+<a style="color:white; background-color:transparent">CHAPTER V: WELTANSCHAUUNG AND ORGANIZATION</a>
+<a style="color:white; background-color:transparent">CHAPTER VI: THE FIRST PHASE OF OUR STRUGGLE—THE SIGNIFICANCE OF THE SPOKEN WORD</a>
+<a style="color:white; background-color:transparent">CHAPTER VII: THE STRUGGLE WITH THE REDS</a>
+<a style="color:white; background-color:transparent">CHAPTER VIII: THE STRONG ARE STRONGER WITHOUT ALLIES</a>
+<a style="color:white; background-color:transparent">CHAPTER IX: NATURE AND ORGANISATION OF THE STORM TROOPS</a>
+<a style="color:white; background-color:transparent">CHAPTER X: THE MASK OF FEDERALISM</a>
+<a style="color:white; background-color:transparent">CHAPTER XI: PROPAGANDA AND ORGANIZATION</a>
+<a style="color:white; background-color:transparent">CHAPTER XII: THE PROBLEM OF THE TRADE-UNIONS</a>
+<a style="color:white; background-color:transparent">CHAPTER XIII: THE GERMAN POLICY OF ALLIANCES</a>
+<a style="color:white; background-color:transparent">CHAPTER XIV: EASTERN BIAS OR EASTERN POLICY</a>
+<a style="color:white; background-color:transparent">CHAPTER XV: THE RIGHT TO SELF-DEFENCE</a>
 </pre>
 <pre style="position: relative; top: -310px">
 On April 1st, 1924, I began to serve my sentence of detention in the 
