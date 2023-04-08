@@ -1,145 +1,131 @@
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <head>
-<link rel="icon" href="https://cdn.discordapp.com/attachments/1053097258993848351/1080635235470946334/website_icon4.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://iliek.one/icon2.png">
 <title>Mein Kampf</title>
 <meta content="Mein Kampf" property="og:title" />
 <meta content="Read Mein Kampf for free." property="og:description" />
 <meta content="https://iliek.one/mken" property="og:url" />
-<meta content="https://cdn.discordapp.com/attachments/1053097258993848351/1081384955441074228/discord_embed.png" property="og:image" />
+<meta content="https://iliek.one/embed.png" property="og:image" />
 <meta content="#FF0000" data-react-helmet="true" name="theme-color" />
 <style>
-.booktext {
- font-family: monospace;
- width: 600;
- white-space: pre-line;
+.text {
+  word-wrap: break-word; 
+  white-space: pre-wrap;
+  color:#eeeeee;
 }
 </style>
 </head>
-<body bgcolor="#444444" style="color:#cccccc">
-<img src="https://cdn.discordapp.com/attachments/1053097258993848351/1080753761460420728/meinkampf.png" alt="Book Cover" style="position: relative; left: 600px">
-<h1 style="position: relative; top: -360px">Mein Kampf Stalag Edition</h1>
-<h3 style="position: relative; top: -350px">
-VOLUME ONE - A Reckoning 
-</h3>
-<p class="booktext" style="position: relative; top: -340px">
+<body bgcolor="#444444">
+<script type="text/javascript">
+$(document).ready(function () {
+
+    if (localStorage.getItem("meinkampf-quote-scroll") != null) {
+        $(window).scrollTop(localStorage.getItem("meinkampf-quote-scroll"));
+    }
+
+    $(window).on("scroll", function() {
+        localStorage.setItem("meinkampf-quote-scroll", $(window).scrollTop());
+    });
+
+  });
+</script>
+
+<h1 style="color:#eeeeee;">Mein Kampf</h1>
+<pre class="text">
+<h2>Volume I : A Reckoning</h2>
 <a href="#Chapter_1" style="color:white; background-color:transparent">CHAPTER I: MY HOME</a>
 <a href="#Chapter_2" style="color:white; background-color:transparent">CHAPTER II: LEARNING AND SUFFERING IN VIENNA</a>
-WORK IN PROGRESS : 
-<a style="color:white; background-color:transparent">CHAPTER III: VIENNA DAYS—GENERAL REFLECTIONS</a>
-<a style="color:white; background-color:transparent">CHAPTER IV: MUNICH</a>
-<a style="color:white; background-color:transparent">CHAPTER V: THE WORLD WAR</a>
-<a style="color:white; background-color:transparent">CHAPTER VI: WAR PROPAGANDA</a>
-<a style="color:white; background-color:transparent">CHAPTER VII: THE REVOLUTION IN 1918</a>
-<a style="color:white; background-color:transparent">CHAPTER VIII: THE BEGINNING OF MY POLITICAL ACTIVITIES</a>
-<a style="color:white; background-color:transparent">CHAPTER IX: THE GERMAN LABOUR PARTY</a>
-<a style="color:white; background-color:transparent">CHAPTER X: THE COLLAPSE OF THE SECOND REICH</a>
-<a style="color:white; background-color:transparent">CHAPTER XI: NATION AND RACE</a>
-<a style="color:white; background-color:transparent">CHAPTER XII: THE FIRST STAGE IN THE DEVELOPMENT OF THE NATIONAL SOCIALIST</a>
-<a style="color:white; background-color:transparent">CHAPTER XIII: GERMAN LABOUR PARTY</a>
-</p>
-<h3 style="position: relative; top: -330px">
-VOLUME TWO - The National Socialist Movement - WORK IN PROGRESS
-</h3>
-<p class="booktext" style="position: relative; top: -320px">
-<a style="color:white; background-color:transparent">CHAPTER I: WELTANSCHAUUNG AND PARTY</a>
-<a style="color:white; background-color:transparent">CHAPTER II: THE STATE</a>
-<a style="color:white; background-color:transparent">CHAPTER III: CITIZENS AND SUBJECTS OF THE STATE </a>
-<a style="color:white; background-color:transparent">CHAPTER IV: PERSONALITY AND THE IDEAL OF THE VOLKISCH STATE</a>
-<a style="color:white; background-color:transparent">CHAPTER V: WELTANSCHAUUNG AND ORGANIZATION</a>
-<a style="color:white; background-color:transparent">CHAPTER VI: THE FIRST PHASE OF OUR STRUGGLE—THE SIGNIFICANCE OF THE SPOKEN WORD</a>
-<a style="color:white; background-color:transparent">CHAPTER VII: THE STRUGGLE WITH THE REDS</a>
-<a style="color:white; background-color:transparent">CHAPTER VIII: THE STRONG ARE STRONGER WITHOUT ALLIES</a>
-<a style="color:white; background-color:transparent">CHAPTER IX: NATURE AND ORGANISATION OF THE STORM TROOPS</a>
-<a style="color:white; background-color:transparent">CHAPTER X: THE MASK OF FEDERALISM</a>
-<a style="color:white; background-color:transparent">CHAPTER XI: PROPAGANDA AND ORGANIZATION</a>
-<a style="color:white; background-color:transparent">CHAPTER XII: THE PROBLEM OF THE TRADE-UNIONS</a>
-<a style="color:white; background-color:transparent">CHAPTER XIII: THE GERMAN POLICY OF ALLIANCES</a>
-<a style="color:white; background-color:transparent">CHAPTER XIV: EASTERN BIAS OR EASTERN POLICY</a>
-<a style="color:white; background-color:transparent">CHAPTER XV: THE RIGHT TO SELF-DEFENCE</a>
-</p>
-<p class="booktext" style="position: relative; top: -310px">
-On April 1st, 1924, I began to serve my sentence of detention in the 
-Fortress of Landsberg am Lech, following the verdict pronounced by the 
-Munich People’s Court on that day. 
+<a href="#Chapter_3" style="color:white; background-color:transparent">CHAPTER III: VIENNA DAYS-GENERAL REFLECTIONS</a>
+<a href="#Chapter_4" style="color:white; background-color:transparent">CHAPTER IV: MUNICH</a>
+<a href="#Chapter_5" style="color:white; background-color:transparent">CHAPTER V: THE WORLD WAR</a>
+<a href="#Chapter_6" style="color:white; background-color:transparent">CHAPTER VI: WAR PROPAGANDA</a>
+<a href="#Chapter_7" style="color:white; background-color:transparent">CHAPTER VII: THE REVOLUTION IN 1918</a>
+<a href="#Chapter_8" style="color:white; background-color:transparent">CHAPTER VIII: THE BEGINNING OF MY POLITICAL ACTIVITIES</a>
+<a href="#Chapter_9" style="color:white; background-color:transparent">CHAPTER IX: THE GERMAN LABOUR PARTY</a>
+<a href="#Chapter_10" style="color:white; background-color:transparent">CHAPTER X: THE COLAPSE OF THE SECOND REICH</a>
+<a href="#Chapter_11" style="color:white; background-color:transparent">CHAPTER XI: NATION AND RACE</a>
+<a href="#Chapter_12" style="color:white; background-color:transparent">CHAPTER XII: THE FIRST STAGE IN THE DEVELOPMENT OF THE NATIONAL SOCIALIST</a>
+‎<h3>PREFACE</h3>
 
-After years of uninterrupted labour it was now possible for the first time 
-to begin a work for which many had asked and which I myself felt would be 
-profitable for the Movement. I therefore decided to devote two volumes to a 
-description not only of the aims of our Movement, but also of its development. 
-There is more to be learned from this than from any purely doctrinaire treatise. 
+On April ist, 1924, I began to serve my sentence of detention in thead
+Fortress of Landsberg am Lech, following the verdict pronounced by the
+Munich People's Court on that day.
 
-This has also given me the opportunity of describing my own 
-development in so far as such a description 1s necessary to the understanding 
-of the first as well as of the second volume and to refute the unfounded tales 
-which the Jewish press has circulated about me. 
+After years of uninterrupted labour it was now possible for the first time
+to begin a work for which many had asked and which I myself felt would be
+profitable for the Movement. I therefore decided to devote two volumes to a
+description not only of the aims of our Movement, but also of its development.
+There is more to be learned from this than from any purely doctrinaire treatise.
 
-In this work I turn not to strangers, but to those followers of the 
-Movement whose hearts belong to it and who wish to study it more profoundly. 
-I know that fewer people are won over by the written, than by the spoken, 
-word and that every great movement on this earth owes its growth to great 
-speakers and not to great writers. 
+This has also given me the opportunity of describing my own
+development in so far as such a description is necessary to the understanding
+of the first as well as the second volume and to refute the unfounded tales
+which the Jewish press has circulated about me.
 
-Nevertheless, in order to achieve more equality and uniformity in the 
-defence of any doctrine, its fundamental principles must be committed to 
-writing. May these two volumes therefore serve as building stones which I 
-contribute to the common task. 
-‎ 
-‎ 
-The Fortress, Landsberg am Lech. 
+In this work i turn not to strangers, but to those followers of the
+Movement whose hearts belong to it and who wish to study it more profoundly.
+I know that fewer people are won over by the written, than by the spoken
+word and that every great movement on this earth owes its growth to great
+speakers and not to great writers.
 
-At half-past twelve on the afternoon of November 9th, 1923, those 
-whose names are given below fell in front of the Feldherrnhalle and in the 
-forecourt of the former War Ministry in Munich as loyal believers in the 
-resurrection of their people: 
+Nevertheless, in order to achieve more equality and uniformity in the
+defence of any doctrine, its fundamental principles must be committed to
+writing. May these two volumes therefore serve as building stones which I
+contribute to the common task.
 
-Alfarth, Felix, Merchant, born July 5th, 1901 
+The Fortress, Landsberg am Lech.
+<h5 id="10">10</h5>
+At half-past twelve on the afternoon of November 9th, 1923, those
+whose names are given below fell in front of the Feldherrnhalle and in the
+forecourt of the former War Ministry in Munich as loyal believers in the
+resurrection of their people:
 
-Bauriedl, Andreas, Hatter, born May 4th, 1879 
+Alfarth, Felix, Merchant, born July 5th, 1901
 
-Casella, Theodor, Bank Official, born August 8th, 1900 
+Bauriedl, Andreas, Hatter, born May 4th, 1879
 
-Ehrlich, Wilhelm, Bank Official, born August 19th, 1894 
+Casella Theodor, Bank Official, born August 8th, 1900
 
-Faust, Martin, Bank Official, born January 27th, 1901 
+Ehrlich, Wilhelm, Bank Official, born August 19th, 1894
 
-Hechenberger, Ant., Mechanic, born September 28th, 1902 
+Faust, Martin, Bank Official, born August 19th, 1894
 
-Koerner, Oskar, Merchant, born January 4th, 1875 
+Hechenberger, Anton, Mechanic, born September 28th, 1902
 
-Kuhn, Karl, Headwaiter, born July 26th, 1897 
+Koerner, Oskar, Merchant, born January 4th, 1875
 
-Laforce, Karl, Student of Engineering, born October 2 8th, 1904 
-Neubauer, Kurt, Man-servant, born March 27th, 1899 
-Pape, Claus von, Merchant, born August 16th, 1904 
+Kuhn, Karl, Headwaiter, born July 26th, 1897
 
-Pfordten, Theodor von der, Councillor to the Supreme Provincial Court, 
-born May 14th, 1873 
+Laforce, Karl, Student of Engineering, born October 28th, 1904
 
-Rickmers, Joh., retired Cavalry Captain, born May 7th, 1881 
+Neubauer, Kurt, Man-servant, born March 27th, 1899
 
-Scheubner-Richter, Max Erwin von, Dr. of Engineering, born January 
-9th, 1884 
+Pape, Claus von, Merchant, born August 16th, 1904
 
-Stransky, Lorenz, Ritter von, Engineer, born March 14th, 1899 
-Wolf, Wilhelm, Merchant, born October 19th, 1898 
+Pfordten, Theodor von der, Councillor to the Supreme Provincial Court, born May 14th, 1873
+
+Rickmers, Johann, retired Cavalry Captain, born May 7th, 1881
+
+Scheubner-Richter, Max Erwin von, Dr. of Engineering, born January 9th, 1884
+
+Stransky, Lorenz, Ritter von, Engineer, born March 14th, 1899
+
+Wolf, Wilhelm, Merchant, born October 19th, 1988
 
 The so-called national authorities refused to allow the dead heroes a 
-common grave. I therefore dedicate to them the first volume of this work, as a 
-common memorial, in order that they, as martyrs to the cause, may be a 
-permanent inspiration to the followers of our Movement. 
+common grave. I therefore dedicate to them the first volume of this work, as a
+<h5 id="11">11</h5>
+common memorial, in order that they, as martyrs to the cause, may be a
+permanent inspiration to the followers of our Movement.
 
 The Fortress, 
 Landsberg am Lech, 
-October 16th, 1924. 
-‎</p>
-<h2 style="font-family:verdana;position: relative; top: -310px">
-VOLUME 1 - A RECKONING
-‎</h2>
-‎ 
-‎<h3 id="Chapter_1" style="font-family:verdana;position: relative; top: -330px">
-CHAPTER 1 - MY HOME
-‎</h3> 
-‎<p class="booktext" style="position: relative; top: -330px">
+October 16th, 1924.
+<h5 id="11"><h5 id="12"><h5 id="13"><h5 id="14"><h5 id="15">
+<h2 id="Volume_1" style="font-family:verdana">VOLUME 1 - A RECKONING</h2>
+<h3 id="Chapter_1" style="font-family:verdana">CHAPTER 1 - MY HOME</h3>
 To-day I consider it a good omen that Destiny appointed Braunau-on-the- 
 Inn to be my birthplace, for that little town is situated just on the frontier 
 between those two German States, the reunion of which seems, at least to us of 
@@ -165,7 +151,7 @@ day. Over a hundred years ago this sequestered spot was the scene of a tragic
 calamity which affected the whole German nation and will he remembered for 
 ever, at least in the annals of German history. 
 
-At the time of our Fatherland’s deepest humiliation, a Nuremberg 
+At the time of our Fatherland’s deepest humiliation, a Nurnberg 
 bookseller, Johannes Palm, an uncompromising nationalist and an enemy of the 
 French, was put to death here because he had loved Germany even in her 
 misfortune. He obstinately refused to disclose the names of his associates, or 
@@ -177,8 +163,8 @@ official, a director of police from Augsburg who won ignoble renown on that
 occasion and set the example which was to be copied at a later date by the 
 German officials of the Reich under Herr Severing’s regime. 
 
-
 In this little town on the Inn, hallowed by the memory of a German 
+<h5 id="16">16</h5>
 martyr a town that was Bavarian by blood but under the rule of the Austrian 
 State, my parents were domiciled towards the end of the last century. My father 
 was a civil servant who fulfilled his duties very conscientiously. 
@@ -220,9 +206,9 @@ He became a civil servant. He was about twenty-three years old, I think,
 when he succeeded in making himself what he had resolved to become. Thus 
 he was able to keep, the vow he had made as a poor boy, not to return to his 
 native village until he was ‘somebody.’ He had gained his end, but in the 
+<h5 id="17">17</h5>
 village there was nobody who remembered him as a little boy, and the village 
 itself had become strange to him. 
-
 
 Now at last, when he was fifty-six years old, he gave up his active 
 career, but he could not bear to be idle for a single day. On the outskirts of the 
@@ -245,7 +231,7 @@ used to have with my comrades.
 I had become a juvenile ringleader who learned well and easily at 
 school, but was rather difficult to manage. In my free time I practised singing in 
 the choir of the monastery church at Lambach, and thus it happened that I was 
-placed in a very favourable position to be emotionally impressed again and 
+placed ina very favourable position to be emotionally impressed again and 
 again by the magnificent splendour of ecclesiastical ceremonial. 
 
 What could be more natural for me than to look upon the abbot as 
@@ -262,9 +248,9 @@ contradiction in my character made him feel somewhat anxious.
 As a matter of fact, that transitory yearning after such a vocation soon 
 gave way to hopes that were better suited to my temperament. Browsing among 
 my father’s books, I chanced to come across some publications that dealt with 
+<h5 id="18">18</h5>
 military subjects. One of these publications was a popular history of the 
 Franco-German War of 1870-71. 
-
 
 It consisted of two volumes of art illustrated periodical dating from 
 those years. These became my favourite reading. In a little while that great and 
@@ -290,7 +276,7 @@ something that I could not understand.
 It was decided that I should study. Considering my character as a whole, 
 and especially my temperament, my father decided that the classical subjects 
 studied at the Gymnasium were not suited to my natural talents, lie thought that 
-the Realschule would suit me better.
+the Realschule would suit me better. 
 
 My obvious talent for drawing confirmed him in that view, for in his 
 opinion, drawing was a subject too much neglected in the Austrian 
@@ -305,11 +291,11 @@ to overestimate what he had achieved, because this was exclusively the result
 of his own indefatigable industry and energy. 
 
 The characteristic pride of the self-made man caused him to cherish the 
+<h5 id="19">19</h5>
 idea that his son should follow the same calling and if possible rise to a higher 
 position in it. Moreover, this idea was strengthened by the consideration that 
 the results of his own life’s industry had placed him in a position to facilitate 
 his son’s advancement in the same profession. 
-
 
 He was simply incapable of imagining that I might reject what had meant 
 everything in life to him. My father’s decision was simple, definite, clear and 
@@ -348,9 +334,9 @@ for me to spend, far more time in the open air than at home.
 To-day, when my political opponents pry into my life, as far back as the 
 days of my boyhood, with diligent scrutiny so as finally to be able to prove 
 what disreputable tricks this Hitler was, accustomed to play in his young day, I 
+<h5 id="20">20</h5>
 thank Heaven that I can look back on those happy days and find the memory of 
 them helpful. 
-
 
 The fields and the woods were then the terrain on which all disputes 
 were fought out. Even attendance at the Realschule could not alter my way of 
@@ -391,10 +377,10 @@ consideration of what my own natural qualifications really were.
 
 “Artist! Not as long as I live, never.” As the son had inherited some of 
 the father’s obstinacy, along with other qualities, his reply was equally 
+<h5 id="21">21</h5>
 energetic, but, of course, opposed to his, and so the matter stood. My father 
 would not abandon his ‘Never,’ and I became all the more determined in my 
 ‘Nevertheless.’ 
-
 
 Naturally the resulting situation was not pleasant. The old gentleman was 
 embittered and indeed so was I, although I really loved him. My father forbade 
@@ -433,9 +419,9 @@ After the magnificent triumphant march of the victorious armies in the
 Franco-German War the Germans in the Reich became steadily more and more 
 estranged from the Germans beyond their frontiers, partly because they did not 
 deign to appreciate those other Germans at their, true value or simply because 
+<h5 id="22">22</h5>
 they were incapable of doing so. In thinking of Austria, they were prone to 
 confuse the decadent dynasty and the people which was essentially very sound. 
-
 
 The Germans in the Reich did not realise that if the Germans in Austria 
 had not been of the best racial stock they could never have given the stamp of 
@@ -474,7 +460,7 @@ This sifting process began even in the schools and it is worth noting that
 the struggle for the language was waged perhaps in its bitterest form around the 
 school, because this was the nursery where the seeds had to be tended which 
 were to spring up and form the future generation. 
-
+<h5 id="23">23</h5>
 
 The tactical objective of the fight was the winning over of the child, and 
 it was to the child that the first rallying cry was addressed, “German boy, do 
@@ -517,6 +503,7 @@ I developed very rapidly in the nationalist direction, and by the time I
 was fifteen years old, I had come to understand the distinction between 
 dynastic patriotism and volkisch nationalism, my sympathies being entirely in 
 favour of the latter even in those days. 
+<h5 id="24">24</h5>
 
 Such a preference may not perhaps be clearly intelligible to those who 
 have never taken the trouble to study the internal conditions that prevailed in 
@@ -528,7 +515,7 @@ existent.
 
 The fate of this State was closely bound up with the existence and 
 development of Germany as a whole, so that a division of history into German 
-history and Austrian history 1s practically inconceivable. And indeed it was 
+history and Austrian history is practically inconceivable. And indeed it was 
 only when the German people came to be divided between two States that this 
 division began to make German history. 
 
@@ -559,7 +546,7 @@ To study history means to search for and discover the forces that are the
 causes of those results which appear before our eyes as historical events. The 
 art of reading and studying consists in remembering the essentials and 
 forgetting what is inessential. 
-
+<h5 id="25">25</h5>
 
 Probably my whole future life was determined by the fact that I had a 
 teacher of history who understood, as few others understand, how to make this 
@@ -602,11 +589,11 @@ personal interests? Did not we, as youngsters, fully realise that the House of
 Habsburg did not, and could not, have any love for us Germans? 
 
 What history taught us about the policy followed by the House of 
+<h5 id="26">26</h5>
 Habsburg was corroborated by our own everyday experiences. In the north and 
 in the south the poison of foreign races was eating into the body of our people, 
 and even Vienna was steadily becoming more and more a non-German city. 
 The ‘Imperial House’ favoured the Czechs on every possible occasion. 
-
 
 Indeed, it was the hand of the goddess of eternal justice and inexorable 
 retribution that caused the most deadly enemy of Germanism in Austria, the 
@@ -644,11 +631,11 @@ convinced of them as the years passed.
 They were, firstly, that the dissolution of the Austrian Empire was a 
 preliminary condition for the safeguarding of German nationality and culture; 
 further, that national feeling is by no means identical with dynastic patriotism; 
+<h5 id="27">27</h5>
 and, above all, that the House of Habsburg was destined to bring misfortune on 
 the German nation. As a logical consequence of these convictions, there arose 
 in me a feeling of intense love for my German-Austrian home and a profound 
 hatred for the Austrian State. 
-
 
 The way of looking at history which was developed in me through my 
 study of history at school never left me afterwards. World-history became 
@@ -659,7 +646,7 @@ but let history teach me.
 A precocious revolutionary in politics, I was no less a precocious 
 revolutionary in art. At that time, the provincial capital of Upper Austria had a 
 theatre which, relatively speaking, was not bad. Almost everything was 
-produced there.
+produced there. 
 
 When I was twelve years old I saw a performance of Wilhelm Tell there. 
 That was my first experience of the theatre. Some months later I attended a 
@@ -687,9 +674,9 @@ servant. The only peculiar feature of, the situation now was that as I grew
 bigger I became more and more interested in architecture. 
 
 I considered this fact as a natural complement of my talent for painting 
+<h5 id="28">28</h5>
 and I rejoiced inwardly that the sphere of my artistic interests was thus 
 enlarged. I had no notion that one day it would have to be otherwise. 
-
 
 The question of my career was decided much sooner than I could have 
 foreseen. When I was in my thirteenth year my father was suddenly taken from 
@@ -730,7 +717,7 @@ illness which, from the very beginning, permitted little hope of recovery.
 
 Though expected, her death came as a terrible blow to me. I respected 
 my father, but I loved my mother. 
-
+<h5 id="29">29</h5>
 
 Poverty and stern reality forced me to decide promptly. The meagre 
 resources of the family had been almost entirely used up through my mother’s 
@@ -738,15 +725,13 @@ severe illness. The allowance which came to me as an orphan was not enough
 for the bare necessities of life. 
 
 Somehow or other, I would have to earn my own bread. With my clothes 
-and linen packed in a valise and with an indomitable resolution in my heart, I 
+and linen packed ina valise and with an indomitable resolution in my heart, I 
 left for Vienna. I hoped to forestall Fate, as my father had done fifty years 
 before, I was determined to become ‘somebody’ but certainly not a civil 
 servant. 
-‎</p> 
-‎<h3 id="Chapter_2" style="font-family:verdana;position: relative; top: -330px">
-CHAPTER 2 - LEARNING AND SUFFERING IN VIENNA
-‎</h3> 
-‎<p class="booktext" style="position: relative; top: -330px"> 
+<h3 id="Chapter_2" style="font-family:verdana">CHAPTER 2 - LEARNING AND SUFFERING IN VIENNA</h3>
+<h5 id="30"><h5 id="31"><h5 id="32">32</h5>
+
 I had, however, one misgiving. It seemed to me that I was better 
 qualified for drawing than for painting, especially in the various branches of 
 architectural drawing. At the same time my interest in architecture was 
@@ -783,11 +768,11 @@ and had never received any instruction in architectural designing.
 When I left the magnificent Hansen building, in the Schiller Platz, I was 
 quite crestfallen. I felt at odds with myself for the first time in my young life, 
 for what I had heard about my capabilities now appeared to me as a lightning 
+<h5 id="33">33</h5>
 flash which clearly revealed a dualism under which I had been suffering for a 
 long time, but for which I had hitherto been unable to account. Within a few 
 days I myself also knew that I ought to become an architect, but of course the 
 way was very difficult. 
-
 
 I was now forced bitterly to rue my former conduct in neglecting and 
 despising certain subjects at the Realschule. Before attending courses at the 
@@ -824,8 +809,7 @@ Adversity as to a new mother.
 Though I then rebelled against it as too hard a fate, I am grateful that I 
 was cast, against my wishes, into a world of misery and poverty and thus came 
 to know the people for whom I was afterwards to fight. 
-
-
+<h5 id="34">34</h5>
 It was during this period that my eyes were opened to two perils, the 
 names of which I scarcely knew hitherto and had no notion whatsoever of their 
 terrible significance for the existence of the German people. These two perils 
@@ -868,12 +852,13 @@ from the greater profundity and foresight that are based on the experiences of a
 long life—and the creative genius of youth, which blossoms out in thought and 
 ideas with inexhaustible fertility, without being able to digest these 
 immediately, because of their very superabundance. 
-
+<h5 id="35">35</h5>
 
 These furnish the building materials and plans for the future, and it is 
 from them that age takes the stones and builds the edifice, unless the so-called 
 wisdom of the years has smothered the creative genius of youth. 
-The life which I had hitherto led at home with my parents differed litle 
+
+The life which I had hitherto led at home with my parents differed little 
 from that of many others. I looked forward without apprehension to the 
 morrow, and there was no such thing as a social problem to be faced. Those 
 among whom I passed my young days belonged to the small bourgeois class. 
@@ -909,7 +894,7 @@ father had raised himself in his early days, and thus the blinkers of a narrow
 petit bourgeois education were torn from my eyes. Now for the first time I 
 learned to know men and I learned to distinguish between an outer polish or 
 coarse manners and the real inner nature of people. 
-
+<h5 id="36">36</h5>
 
 At the beginning of the century Vienna already ranked among those cities 
 where social conditions were iniquitous. Dazzling riches and loathsome 
@@ -952,7 +937,7 @@ fortune and those who have risen in the social scale through their own efforts,
 or the equally supercilious and often tactless, but always genteel, 
 condescension displayed by people who have a craze for being charitable and 
 who plume themselves on ‘sympathising with the people.’ 
-
+<h5 id="37">37</h5>
 
 Of course such persons sin to a degree which they, with their lack of 
 instinctive understanding, are, unable to realise, and thus they are astonished to 
@@ -995,7 +980,7 @@ I soon found out that there was always some kind of work to be got, but I
 also learned that it could just as quickly and easily be lost. The uncertainty of 
 being able to earn a regular daily livelihood soon appeared to me the 
 gloomiest feature in this new life upon which I had entered. 
-
+<h5 id="38">38</h5>
 
 Although the skilled worker was not so frequently thrown idle as the 
 unskilled worker, yet the former was by no means protected against the same 
@@ -1038,10 +1023,9 @@ is hungry.
 
 Often he pawns or sells the last of his belongings. His clothes begin to 
 get shabby and with the increasing shabbiness of his outward appearance he 
-
+<h5 id="39">39</h5>
 descends to a lower social level and, in addition to his physical misery, now 
 mixes with a class of human beings through whom his mind becomes poisoned. 
-
 
 When he has nowhere to sleep, and if this happens in winter, as is very 
 often the case, he is in dire distress. Finally he gets work, but the same story 
@@ -1068,7 +1052,7 @@ the end. When they came they still felt themselves in communion with their
 own people at home; if they remained that tie was broken. 
 
 I was so buffeted about by life in the metropolis that I myself tasted the 
-physical experience of such a lot and felt the effects of it in my own soul. One 
+physical experience of such a lot and felt the effects of 1t in my own soul. One 
 other thing became clear to me. The sudden change from work to idleness and 
 vice versa and the constant fluctuation thus caused between earning and 
 expenditure finally destroyed the sense of thrift in many people and also the 
@@ -1076,14 +1060,14 @@ habit of regulating expenditure in an intelligent way.
 
 The body appeared to grow accustomed to vicissitude, eating heartily in 
 good times and going hungry in bad. Indeed hunger shatters all plans for 
-regulating expenditure in better times when employment has again been found. 
+regulating expenditure in better ttmes when employment has again been found. 
 
 The reason for this is that the deprivations which the unemployed worker 
 has to endure must be compensated for psychologically by a persistent mental 
 mirage in which he imagines himself eating heartily once again, and this dream 
+<h5 id="40">40</h5>
 develops into such a longing that it turns into a morbid impulse to cast off all 
 self-restraint when work and wages turn up again. 
-
 
 Therefore, the moment work is found anew he forgets to regulate the 
 expenditure of his earnings but spends them to the full without thinking of the 
@@ -1123,9 +1107,9 @@ Then when he finally comes home, maybe on the Sunday or the Monday,
 having parted with his last pence, terrible scenes take place. I have had actual 
 experience of all this in hundreds of cases. At first I was disgusted and 
 indignant, but later on I came to recognise the whole tragedy of their misfortune 
+<h5 id="41">41</h5>
 and to understand the profound causes of it. They were the unhappy victims of 
 evil circumstances. 
-
 
 Housing conditions were very bad at that time. In Vienna manual 
 labourers lived in surroundings of appalling misery. I shudder even to-day 
@@ -1165,9 +1149,9 @@ Just as Nature concentrates her attention, not on the preservation of what
 already exists, but on the selective breeding of offspring in order to carry on 
 the species, so in human life also it is less a matter of artificially improving the 
 existing generation (which, owing to human characteristics, is impossible in 
+<h5 id="42">42</h5>
 ninety-nine cases out of a hundred), but more of securing from the very start a 
 better road for future development. 
-
 
 During my struggle for existence in Vienna I perceived, very clearly that 
 the aim of all social activity must never be merely charitable relief, which is 
@@ -1181,7 +1165,7 @@ overcome the hostility towards the State prevailing among certain criminal
 classes is largely due to an attitude of uncertainty regarding the inner motives 
 and causes of this contemporary phenomenon. 
 
-The reasons for this uncertainty are to be found in a sense of guilt for 
+The reasons for this uncertainty are to be found ina sense of guilt for 
 having permitted this tragedy of degradation. That feeling paralyses every 
 serious and firm resolve and so contributes to the vacillating, and therefore 
 weak and ineffectual, application of even those measures which are 
@@ -1207,14 +1191,14 @@ themselves why it is that their own sentiments are better?
 
 How many of them understand that their natural pride in being members 
 of so favoured a nation arises from the innumerable succession of instances 
+<h5 id="43">43</h5>
 they have encountered which remind them of the greatness of their country and 
 their nation in all spheres of artistic and cultural life? How many of them 
 realise that pride in their country is largely dependent on knowledge of its 
 greatness in all those spheres? 
 
-
 Do our bourgeois circles ever think what a ridiculously meagre share the 
-people have in that knowledge which 1s a necessary prerequisite for the feeling 
+people have in that knowledge which is a necessary prerequisite for the feeling 
 of pride in one’s country? 
 
 It cannot be objected here that in other countries similar conditions exist 
@@ -1247,11 +1231,11 @@ years remain in the memory up to an advanced age.
 Now, the narrowness and congestion of those living quarters are not 
 conducive to pleasant relations and thus quarrels and fits of mutual anger arise. 
 These people can hardly be said to live with one another, but rather on top of 
-one another. The small misunderstandings which disappear of themselves in a 
+one another. The small misunderstandings which disappear of themselves ina 
 home where there is enough space for people to get away from one another for 
+<h5 id="44">44</h5>
 a while, here become the source of chronic disputes. As far as the children are 
 concerned the situation is tolerable from this point of view. 
-
 
 In such conditions, they are constantly quarrelling with one another, but 
 the quarrels are quickly and easily forgotten, but when the parents fall out with 
@@ -1292,9 +1276,9 @@ human existence?
 
 The child of three has got into the habit of reviling all authority by the 
 time he is fifteen. He has been acquainted only with moral filth and vileness, 
+<h5 id="45">45</h5>
 everything being excluded that might stimulate his thoughts towards higher 
 things. Now this young specimen of humanity enters the school of life. 
-
 
 He leads the same kind of life which was exemplified for him by his 
 father during his childhood. He loiters about the streets and comes home at all 
@@ -1334,12 +1318,12 @@ had to earn my daily bread as a manual labourer. I was now working
 independently in a small way, as a painter in water colours. This métier was a 
 poor one indeed as far as earnings were concerned, for these were only 
 sufficient to pay for the bare necessities of life, yet it had an interest for me, in 
+<h5 id="46">46</h5>
 view of the profession to which I aspired. 
 
 Moreover, when I came home in the evenings, I was now no longer 
 dead-tired as formerly, when I used to be unable to open a book without falling 
 asleep almost immediately. 
-
 
 My present occupation was, therefore, in line with the profession I 
 aimed at for the future. Moreover, I was master of my own time and could 
@@ -1377,10 +1361,10 @@ amount, but their brain seems incapable of assorting and classifying the
 material which they have gathered, from books. 
 
 They have not the faculty of distinguishing between what is of value and 
+<h5 id="47">47</h5>
 what is worthless in a book, in order that they may retain the former in their 
 minds, and if possible, skip over the latter while reading or, if that be not 
 possible, when once read, throw it overboard as useless ballast. 
-
 
 Reading is not an end in itself, but a means to an end. Its chief purpose is 
 to help towards filling in the framework which is made up of the talents and 
@@ -1408,7 +1392,7 @@ well-educated person and thinks that he understands something of life.
 He believes that he has acquired knowledge, whereas the truth is that 
 every increase in such ‘knowledge’ draws him more and more away from real 
 life, until he finally ends up in some sanatorium or takes to politics and 
-becomes a member of parliament. 
+becomes a member of parliament.
 
 Such a person never succeeds in turning his knowledge to practical 
 account when the opportune moment arrives, for his mental equipment is not 
@@ -1419,9 +1403,9 @@ If Fate should one day call upon him to use some of his book-knowledge
 for certain practical purposes in life, Fate would have to name the book and 
 give the number of the page, for the poor noodle himself would never be able 
 to find the spot where he gathered the information now called for; but since the 
-page is not mentioned at, the critical moment the wise fool finds himself in a 
+<h5 id="48">48</h5>
+page is not mentioned at, the critical moment the wise fool finds himself ina 
 state of hopeless embarrassment. 
-
 
 In a high state of agitation he searches for analogous cases and it is 
 almost certain that he will finally hit on the wrong prescription. 
@@ -1462,11 +1446,11 @@ From early youth I endeavoured to read books in the right way and I was
 fortunate in having a good memory and intelligence to assist me. From that 
 point of view my sojourn in Vienna was particularly useful and profitable. My 
 daily experiences there were a constant stimulus to study the most diverse 
-problems from new angles. 
-
+<h5 id="49">49</h5>
+problems from new angles.
 
 Inasmuch as I was in a position to put theory to the test of reality and 
-reality to the test of theory, I was safe from the danger of losing myself in a 
+reality to the test of theory, I was safe from the danger of losing myself ina 
 haze of theories on the one hand, and of becoming superficial, on the other. 
 
 My everyday experiences at that time made me determined to make a 
@@ -1499,14 +1483,14 @@ the mother country.
 Accordingly, I had no feeling of antipathy towards the actual policy of 
 the Social Democrats. That its avowed purpose was to raise the level of the 
 working classes (which, in my ignorance, I then foolishly believed) was a 
-further point in favour of Social Democracy rather than against it, but the 
+further point in favour of Social Democracy rather than against it,) but the 
 feature that contributed most to estrange me from the Social Democratic 
 movement was its hostile attitude towards the struggle for the preservation of 
 Germanism in Austria and its undignified wooing of the Slav ‘comrades,’ who 
 received these approaches favourably as long as any, practical advantages 
+<h5 id="50">50</h5>
 were forthcoming, but otherwise maintained a haughty reserve, thus giving the 
 suitors the answer their behaviour deserved. 
-
 
 So it happened that, at the age of seventeen, the word ‘Marxism’ was 
 very little known to me, while I looked on ‘Social Democracy’ and ‘Socialism’ 
@@ -1547,6 +1531,7 @@ be, but when I was told that I must join the union, I refused.
 The grounds which I gave for my refusal were simply that I knew nothing 
 about the matter and that anyhow I would not allow myself to be forced into 
 anything. Probably the former reason saved me from being thrown out right 
+<h5 id="51">51</h5>
 away.
 
 They probably thought that within a few days I might be converted or 
@@ -1585,10 +1570,10 @@ of doping the people, in order to exploit them afterwards; morality, as the
 badge of stupid and sheepish docility. There was nothing that they did not drag 
 in the mud. 
 
-
 At first I remained silent, but that could not last very long. Then I began 
 to take part in the discussion and to reply to their statements. I had to 
 recognise, however, that this was bound to be entirely fruitless, as long as I did 
+<h5 id="52">52</h5>
 not have at least a certain amount of definite information about the questions 
 that were discussed. 
 
@@ -1632,6 +1617,7 @@ depressed and saw before my mind’s eye the ever-increasing and menacing
 army of people who could no longer be reckoned as belonging to their own 
 nation. 
 
+<h5 id="53">53</h5>
 
 It was with changed feelings, that, some days later, I gazed on the 
 interminable ranks of Viennese workmen parading four abreast, at a mass 
@@ -1674,9 +1660,9 @@ the simpletons of the soi-disant intelligentsia of the middle and upper classes.
 The newspaper propaganda was intended for the masses. 
 
 This probing into books and newspapers and the study of the teachings of 
+<h5 id="54">54</h5>
 Social Democracy reawakened my love for my own, people, and thus what at 
 first seemed an impassable gulf became the occasion of a closer affection. 
-
 
 Having once understood the working of the colossal system for 
 poisoning the popular mind, only a fool could blame the victims of it. During 
@@ -1716,13 +1702,13 @@ Democracy, its teaching and its weapons.
 
 I recognised the infamy of that technique whereby the movement carried 
 on a campaign of mental terrorism against the bourgeoisie, which is neither 
+<h5 id="55">55</h5>
 morally nor spiritually equipped to withstand such attacks. The tactics of 
 Social Democracy consisted in opening, at a given signal, a veritable barrage 
 of lies and calumnies against the man whom they believed to be the most 
 redoubtable of their adversaries, until the nerves of the bourgeoisie gave way 
 and they sacrificed the man who was attacked, simply in the hope of being 
 allowed to live in peace. 
-
 
 But the hope always proved to be a foolish one for they were never left 
 in peace. The same tactics were repeated again and again, until fear of these 
@@ -1751,6 +1737,7 @@ must lead to success, with almost mathematical certainty, unless the other side
 also learns how to fight poison gas with poison gas. Weaker elements must be 
 told that here it is a question of to be or not to be. 
 
+
 I also came to understand that physical intimidation has its significance 
 for the mass as well as for the individual. Here again, the psychological effect 
 has been calculated to a nicety. Intimidation in workshops and in factories, in 
@@ -1758,6 +1745,7 @@ assembly halls and at mass demonstrations, will always meet with success as
 long as it does not have to encounter the same kind of intimidation in a stronger 
 form. 
 
+<h5 id="56">56</h5>
 
 Then, of course, the Social Democratic Party will raise a horrified 
 outcry and appeal to the authority of the State, which it has just repudiated and 
@@ -1785,7 +1773,7 @@ can only be described as victims.
 
 If I attempted to give a faithful picture of those on the lowest rung of the 
 social ladder, my picture would be incomplete, if I did not add that even in the 
-social depths I still found light in the shape of a rare spirit of self-sacrifice and 
+social depths I still found light in the shape ofa rare spirit of self-sacrifice and 
 loyal comradeship, contentment and a modest reserve. 
 
 This was true especially of the older generation of workmen. Although 
@@ -1799,8 +1787,8 @@ If these men, who in many cases meant well and were upright in
 themselves, were, as far as their political activities were concerned, in the 
 ranks of the mortal enemy of our people, that was because they, as decent 
 workpeople did not and could not grasp the downright infamy of the doctrine 
+<h5 id="57">57</h5>
 taught by the socialist agitators. 
-
 
 Furthermore, it was because no other section of the community bothered 
 itself about the lot of the working classes, and social conditions finally proved 
@@ -1841,9 +1829,9 @@ During those years in Vienna, I was forced, whether I liked it or not, to
 decide on the attitude I should take towards the trade-union. Because I looked 
 upon them as inseparable from the Social Democratic Party, my decision was 
 hasty and mistaken. I repudiated them as a matter of course, but on this, 
+<h5 id="58">58</h5>
 essential question, too, Fate intervened and gave me a lesson, with the result 
 that I changed the opinion which I had first formed. 
-
 
 When I was twenty years old I had learned to distinguish between the 
 trade-union as a means of defending the social rights of the employees and of 
@@ -1853,7 +1841,7 @@ union as a political instrument used by the party in the class struggle.
 The fact that the Social Democrats grasped the enormous importance of 
 the trade-union movement, secured for them a weapon which they used with 
 success, whereas the bourgeois parties by their failure to understand it, lost 
-their political prestige.
+their political prestige. 
 
 They thought that their own arrogant ‘veto’ would arrest the logical 
 development of the movement, but what they actually did was to produce an 
@@ -1874,7 +1862,7 @@ nation. It is, therefore, superfluous to ask whether the trade-union is
 indispensable. So long as there are employers who lack social understanding 
 and have false ideas of justice and fair play, it is not only the right, but also the 
 duty, of their employees (who are, after all, an integral part of our people) to 
-protect the general interests against the greed and unreason of the individual.
+protect the general interests against the greed and unreason of the individual. 
 
 To safeguard the loyalty and confidence of the people is as much in the 
 interests of the nation as to safeguard public health. Both are seriously 
@@ -1883,8 +1871,8 @@ members of the national community.
 
 Their personal avidity or ruthlessness sows the seeds of future trouble. 
 To eliminate the causes of such a development is an action that deserves the 
+<h5 id="59">59</h5>
 approbation of the country, and not the reverse. 
-
 
 It is useless to argue that the individual workman is free at any time to 
 escape from the consequences of an injustice which he has actually suffered, or 
@@ -1926,8 +1914,8 @@ it through their political influence. Since the political bourgeoisie failed to
 understand—or, rather, did not wish to understand—the importance of the 
 trade-union movement, the Social Democrats seized the advantage offered 
 them by this mistaken policy and took the trade-unions under their exclusive 
+<h5 id="60">60</h5>
 protection, without any protest from the other side. 
-
 
 In this way they established for themselves a solid bulwark behind 
 which they could safely retire whenever the struggle assumed a critical aspect. 
@@ -1968,8 +1956,8 @@ passive material in the political struggle.
 The, mere prospect of such a development caused such anxiety among 
 the leaders in the class-warfare, that they eventually rejected and inveighed 
 against every genuinely beneficial social reform, and conditions were such that 
+<h5 id="61">61</h5>
 these leaders did not have to trouble to justify such an illogical policy. 
-
 
 As the masses were taught to increase and raise their demands, the 
 possibility of satisfying them dwindled, and whatever ameliorative measures 
@@ -2010,8 +1998,8 @@ Thus did I come to know this friend of humanity. During the years that
 followed, my knowledge was widened and deepened, but I never felt called 
 upon to alter my original opinion. The more became acquainted with the 
 external forms of Social Democracy, the greater became my desire to 
+<h5 id="62">62</h5>
 understand the inner nature of its doctrines. 
-
 
 For this purpose the official literature of the party was of little use. In 
 discussing economic questions, its statements were false and its proofs 
@@ -2031,14 +2019,14 @@ profoundly wise.
 
 By comparing the theoretical falsity and absurdity of that doctrine with 
 the reality of its external manifestations, I gradually came to have a clear idea 
-of its final aims. During such moments I had dark presentiments and feared 
+of its final aims. During such moments | had dark presentiments and feared 
 something evil. I had before me a teaching inspired by egotism and hatred, 
 calculated to win its victory, the winning of which would be a mortal blow to 
 humanity. 
 
 Meanwhile, I had discovered the relationship existing between this 
 destructive teaching and the specific character of a people, who up to that time 
-had been to me almost unknown.
+had been to me almost unknown. 
 
 Knowledge of the Jews is the only key to a true understanding of the 
 inner nature, and, therefore, the real aims, of Social Democracy. 
@@ -2053,8 +2041,7 @@ To-day it is hard, and almost impossible, for me to say when the word
 ever having heard the word at home during my father’s lifetime. If this word 
 had been used with a particular inflection I think the old gentleman would have 
 considered those who used it in this way as being “behind the times.’ 
-
-
+<h5 id="63">63</h5>
 In the course of his career he had, despite his pronounced nationalist 
 tendencies, come to be more or less of a cosmopolitan, and this had not been 
 without its effect on me. In school, too, I found no reason to alter the picture I 
@@ -2097,7 +2084,7 @@ to cope with the onrush of new ideas and values.
 Not until I had gradually settled down in my new surroundings, and the 
 confused picture began to grow clearer, did I gain a closer insight into my new 
 world, and with that I came up against the Jewish problem. 
-
+<h5 id="64">64</h5>
 
 I will not say that the manner in which I first became acquainted with it 
 was particularly pleasant. In the Jew I still saw a man who was of a different 
@@ -2136,11 +2123,12 @@ was not presented in glorified colours to the readers. There was such a fuss,
 especially when it was a question of ‘the wisest monarch of all times,’ that one 
 was reminded of the antics of the mountain-cock at mating time. It all seemed 
 artificial, and to my mind, unworthy of liberal democracy. 
+<h5 id="64">64</h5>
 
 I thought that this cheap way of currying favour at the Court belittled the 
 dignity of the nation, and that was the first shadow that fell on my appreciation 
 of the great Viennese press. 
-
+<h5 id="65">65</h5>
 
 While in Vienna I continued to follow with a vivid interest all the events 
 that were taking place in Germany, whether connected with political or with 
@@ -2183,7 +2171,7 @@ obligations of journalistic truthfulness.
 
 Having thus excused themselves about tenderly touching a sore spot, they 
 probed the wound ruthlessly. 
-
+<h5 id="66">66</h5>
 
 That sort of thing made my blood boil, and now I began to be more and 
 more on my guard when reading the great Viennese press. 
@@ -2217,7 +2205,7 @@ eminent type of German Burgomaster.
 How many prejudices were overcome through such a change in my 
 attitude towards the Christian Socialist Movement! 
 
-My ideas about anti-Semitism changed also in the course of time, but that 
+My ideas about Anti-Semitism changed also in the course of time, but that 
 was the change which I found most difficult. It cost me a great internal conflict 
 with myself, and it was only after months of struggle between reason and 
 sentiment that the former gained the victory. 
@@ -2225,8 +2213,8 @@ sentiment that the former gained the victory.
 Two years later sentiment rallied to the side of reason and became a 
 faithful guardian and counsellor. At the time of this bitter inner struggle 
 between calm reason and the sentiments in which I had been brought up, the 
-lessons that I learned on the streets of Vienna were of invaluable assistance. 
-
+lessons that I learned on the streets of Vienna were of invaluable assistance.
+<h5 id="67">67</h5>
 
 A time came when I no longer passed blindly along the streets of the 
 mighty city, as I had done in the early days, but now with my eyes open, not 
@@ -2269,7 +2257,7 @@ the Germans.
 
 Any indecision which I may still have felt about that point was finally 
 removed by the activities of a certain section of the Jews themselves. 
-
+<h5 id="68">68</h5>
 
 A great movement, called Zionism, the aim of which was to assert the 
 national character of Judaism, was strongly represented in Vienna. 
@@ -2313,10 +2301,11 @@ All unctuous protests were now more or less futile. One needed only to
 look at the posters and to study the names of the authors of the appalling 
 productions advertised as being performed in the cinemas and theatres, in 
 order to become hardened against the Jews. 
+<h5 id="69">69</h5>
+
 Here was a pestilence, a moral pestilence, with which the public was 
 being infected. It was worse than the black plague of long ago. And in what 
 doses this poison was manufactured and distributed! 
-
 
 Naturally, the lower the moral and intellectual level of such an author of 
 ‘artistic’ products, the more inexhaustible his fecundity, and at times it even 
@@ -2356,10 +2345,10 @@ than truth. The writers were—Jews.
 Thousands of details that I had scarcely noticed before seemed to me 
 now to deserve attention. I began to grasp and understand things which had 
 formerly puzzled me. I saw the liberal policy of that press in another light. Its 
+<h5 id="70">70</h5>
 dignified tone in replying to the attacks of its adversaries and its dead silence 
 in other cases now became clear to me as part of a cunning and despicable 
 way of deceiving the readers. 
-
 
 Its brilliant theatrical criticisms always praised the Jewish authors and 
 its adverse criticism was reserved exclusively for the Germans. 
@@ -2392,14 +2381,14 @@ inevitable, for the soldiers to see such things on the Eastern front.
 A cold shiver ran down my spine when I first ascertained that it was the 
 cold-blooded and shameless Jew who showed his consummate skill in 
 conducting a sordid and vicarious trade among the dregs of the big city. Then I 
-was filled with wrath. 
+was filled with wrath.
 
 I had now no more hesitation about investigating the Jewish problem in 
 all its details. Henceforth, I was determined to do so, but as I learned to track 
 down the Jew in all the different spheres of cultural and artistic life, and in the 
 various manifestations of this life everywhere, I suddenly came upon him 
-where I had least expected to find him. 
-
+where I had least expected to find him.
+<h5 id="71">71</h5>
 
 I now realised that the Jews were the leaders of Social Democracy. In 
 the face of that revelation the scales fell from my eyes. My long inner struggle 
@@ -2443,8 +2432,8 @@ home was as irrational as it was incomprehensible. It was against Nature.
 One could cure that malady temporarily, but only for some days, or at 
 most for some weeks, but on meeting those whom one believed to have been 
 converted one found that they had reverted to their old way of thinking and 
-were again the prey of perverse opinions. 
-
+<h5 id="72">72</h5>
+were again the prey of perverse opinions.
 
 I gradually discovered that the Social Democratic press was mainly 
 controlled by Jews, but I did not attach special importance to this 
@@ -2468,6 +2457,7 @@ the chosen race, whether they were members of the Reichsrat (Imperial
 Council), trade-union secretaries, chairmen of various organisations or street 
 agitators. 
 
+
 Everywhere the same sinister picture presented itself. I shall never 
 forget the list of names—Austerlitz, David, Adler, Ellenbogen, and others. 
 
@@ -2485,8 +2475,8 @@ Gradually I became an expert in the doctrine of the Marxists and used
 this knowledge as an instrument to drive home my own firm convictions. I was 
 successful in nearly every case. 
 
-
 The great masses can be rescued, but a lot of time and a great deal of 
+<h5 id="73">73</h5>
 patience must be devoted to such work. A Jew, on the other hand, can never be 
 rescued from his fixed notions. 
 
@@ -2528,7 +2518,7 @@ if nothing had happened.
 Should you become indignant and remind him of yesterday’s defeat, he 
 pretended astonishment and could not remember anything, except that on the 
 previous day he had proved that his statements were correct. 
-
+<h5 id="74">74</h5>
 
 Sometimes I was dumbfounded. I do not know what amazed me the more 
 —their quickness in repartee or the artful way in which they dressed up their 
@@ -2570,15 +2560,13 @@ the duty of every thinking person to push his way into the forefront of this
 sinister movement with a view to preventing it from producing the worst 
 possible results. 
 
-
 But if it were the first question which had to be answered in the 
 affirmative, then it must be admitted that the original authors of this evil which 
+<h5 id="75">75</h5>
 has infected the nations were devils incarnate, for only the brain of a monster, 
 and not that of a man, could plan an organisation whose activities must finally 
 bring about the collapse of human civilisation and turn this world into a desert 
 waste. 
-
-
 
 Such being the case, the only alternative left was to fight, and in that fight 
 to employ all the weapons which the human spirit, human intellect and human 
@@ -2615,9 +2603,9 @@ has been promised the earth as a reward?
 Have we, from the objective point of view, a right to fight for self- 
 preservation, or is this right subjective? 
 
-
 Fate answered the question for me inasmuch as it led me to make a 
 detached and exhaustive inquiry into the Marxist teaching and the activities of 
+<h5 id="76">76</h5>
 the Jewish people in connection with it. The Jewish doctrine of Marxism 
 repudiates the aristocratic principle of Nature and substitutes for the eternal 
 right of might and strength, the dead weight of sheer numbers. Thus it denies 
@@ -2629,7 +2617,7 @@ If the Marxist teaching were to be accepted as the foundation of the life
 of the universe, it would lead to the disappearance of all order that is 
 conceivable to the human mind, and thus the adoption of such a law would 
 provoke chaos in the structure of the greatest organism that we know, with the 
-result that the inhabitants of this earthly planet would finally disappear. 
+result that the inhabitants of this earthly planet would finally disappear.
 
 Should the Jew, with the aid of his Marxist creed, triumph over the 
 peoples of this world, his crown will be the funeral, wreath of mankind, and 
@@ -2640,13 +2628,9 @@ Nature, the eternal, takes merciless vengeance on those who defy her
 laws. Therefore, I believe to-day that my conduct is in accordance with the 
 will of the Almighty Creator. In resisting the Jew I am defending the handiwork 
 of the Lord. 
-‎
-Work In Progress
-</p>
-
-<br>
-<img src="https://cdn.discordapp.com/attachments/1053097258993848351/1081333635917021295/landsberg_am_lech.png" alt="Adolf Hitler in the Landsberg Prison" width="313" height="265">
-
-</p>
+<h5 id="77"><h5 id="78"><h5 id="79"><h5 id="780">
+<h3 id="Chapter_1" style="font-family:verdana">CHAPTER 3 - VIENNA DAYS-GENERAL REFLECTIONS</h3>
+WORK IN PROGRESS
+</pre>
 </body>
 </html>
